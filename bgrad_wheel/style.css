@@ -1,0 +1,38 @@
+* {
+    text-decoration: none;
+  }
+  body, html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #content {
+      width: 100vw;
+      height: 100vh;
+      background: #242424;
+      padding: 0;
+  /*     background: hsl(200, 100%, 50%); */
+  }
+  
+  #text {
+    margin: 0;
+    width: 100vw;
+    background: rgb(0,0,0,.2);
+    /* line-height: 100vh; */
+    position: absolute;
+    top: 50%;
+    backdrop-filter: blur(10px);
+  }
+  
+  #text span {
+    color: #363636;
+    position: absolute;
+    width: 100vw;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 30px;
+  }
